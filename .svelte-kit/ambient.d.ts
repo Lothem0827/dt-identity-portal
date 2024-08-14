@@ -28,7 +28,9 @@
 declare module '$env/static/private' {
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
+	export const CHROME_CRASHPAD_PIPE_NAME: string;
 	export const COLOR: string;
+	export const COLORTERM: string;
 	export const CommonProgramFiles: string;
 	export const CommonProgramW6432: string;
 	export const COMPUTERNAME: string;
@@ -40,6 +42,7 @@ declare module '$env/static/private' {
 	export const HOMEPATH: string;
 	export const INIT_CWD: string;
 	export const INTEL_DEV_REDIST: string;
+	export const LANG: string;
 	export const LOCALAPPDATA: string;
 	export const LOGONSERVER: string;
 	export const MIC_LD_LIBRARY_PATH: string;
@@ -71,6 +74,7 @@ declare module '$env/static/private' {
 	export const NUMBER_OF_PROCESSORS: string;
 	export const OneDrive: string;
 	export const OneDriveCommercial: string;
+	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const OS: string;
 	export const Path: string;
 	export const PATHEXT: string;
@@ -88,11 +92,16 @@ declare module '$env/static/private' {
 	export const SystemDrive: string;
 	export const SystemRoot: string;
 	export const TEMP: string;
+	export const TERM_PROGRAM: string;
+	export const TERM_PROGRAM_VERSION: string;
 	export const TMP: string;
 	export const USERDOMAIN: string;
 	export const USERDOMAIN_ROAMINGPROFILE: string;
 	export const USERNAME: string;
 	export const USERPROFILE: string;
+	export const VSCODE_INJECTION: string;
+	export const VSCODE_NONCE: string;
+	export const VSCODE_STABLE: string;
 	export const windir: string;
 	export const WSLENV: string;
 	export const WT_PROFILE_ID: string;
@@ -130,7 +139,9 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
+		CHROME_CRASHPAD_PIPE_NAME: string;
 		COLOR: string;
+		COLORTERM: string;
 		CommonProgramFiles: string;
 		CommonProgramW6432: string;
 		COMPUTERNAME: string;
@@ -142,6 +153,7 @@ declare module '$env/dynamic/private' {
 		HOMEPATH: string;
 		INIT_CWD: string;
 		INTEL_DEV_REDIST: string;
+		LANG: string;
 		LOCALAPPDATA: string;
 		LOGONSERVER: string;
 		MIC_LD_LIBRARY_PATH: string;
@@ -173,6 +185,7 @@ declare module '$env/dynamic/private' {
 		NUMBER_OF_PROCESSORS: string;
 		OneDrive: string;
 		OneDriveCommercial: string;
+		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		OS: string;
 		Path: string;
 		PATHEXT: string;
@@ -190,11 +203,16 @@ declare module '$env/dynamic/private' {
 		SystemDrive: string;
 		SystemRoot: string;
 		TEMP: string;
+		TERM_PROGRAM: string;
+		TERM_PROGRAM_VERSION: string;
 		TMP: string;
 		USERDOMAIN: string;
 		USERDOMAIN_ROAMINGPROFILE: string;
 		USERNAME: string;
 		USERPROFILE: string;
+		VSCODE_INJECTION: string;
+		VSCODE_NONCE: string;
+		VSCODE_STABLE: string;
 		windir: string;
 		WSLENV: string;
 		WT_PROFILE_ID: string;
